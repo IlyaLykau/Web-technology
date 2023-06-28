@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Nazvanie;
+  src: url(../fonts/Nunito-Bold.ttf);
+}
+
+body, html{
+  overflow-x: hidden;
+}
+
+*{
+  /* margin: 10px 10px 10px 5px; */
+  margin: 10px 20px 30px 5px;
+  padding: 1px 10px 1px 1px;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+  display: flex;
+  margin: 5px 5px 10px 15px;
+  padding: 5px 5px 10px 22px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+}
+
+navli{
+  padding: 0px 20px;
+  list-style-type: none;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  /* z-index: 99; */
+}
+
+h1{
+  margin: 0px 1px 0px 1px;
+  z-index: 1;
+}
+
+main{
+  margin: 0 10 0 10;
+}
+
+p{
+  font-family: Nazvanie;
+  font-size: 15px;
+  
+}
